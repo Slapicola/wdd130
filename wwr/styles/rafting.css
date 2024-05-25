@@ -77,6 +77,22 @@ p {
     height: auto;
 }
 
+.hero1 h1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero1 article{
+    width: 450px;
+    line-height: 1.5em;
+}
+
+.hero1 img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
 h1 {
     position: absolute;
     bottom: 300px;
@@ -110,6 +126,127 @@ article{
     height: 200px;
     margin: 3px;
 
+ }
+
+ .map {
+    display: flex;
+    justify-content: center;
+ }
+
+ aside {
+    padding-bottom: 2em;
+ }
+
+ .employees h2 {
+    height: 45px;
+ }
+
+ aside img {
+    width: 160px;
+    height: 160px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+ }
+
+ .photos {
+    display: flex;
+    justify-content: center;
+ }
+
+ .question_form {
+    background-color: var(--accent2-color);
+    height: 470px;
+ }
+ 
+ .question_form header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+ }
+
+ .question_form h2 {
+    color: white;
+ }
+
+ label {
+    font-family: var(--paragraph-font);
+ }
+
+ form {
+    display: grid;
+    width: 700px;
+    padding: 1em;
+    padding-top: 2em;
+    padding-left: 30em;
+ }
+ 
+ .row1 label {
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+ }
+ 
+ label[for="useremail"]{
+    padding-left: 25px;
+ }
+
+ .row1 input{
+    width: 170px;
+ }
+
+ .row2{
+    font-size: 15px;
+ }
+
+ .row2 label[for="purpose"]{
+    padding-top: 1.1em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    display: block;
+ }
+
+ .row2 input {
+    display: inline;
+ }
+
+ label[for="usermessage"]{
+    padding-top: 1em;
+ }
+
+ textarea {
+    width: 485px;
+    height: 80px;
+    font-size: large;
+ }
+
+ .row4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 240px;
+ }
+ .row4 input {
+    float: left;
+ }
+
+ button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+ }
+
+ button:hover {
+    background-color: #20AB87;
+ }
+ 
+ .button_container {
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 2em;
+    padding-left: 12em;
  }
 
  footer nav {
